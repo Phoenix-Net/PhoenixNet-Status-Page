@@ -24,8 +24,10 @@ sites:
     url: $GAG_URL
   - name: Vaultwarden (Bitwarden)
     url: $VW_URL
-  - name: Vikunja
-    url: $VIKUNJA_URL
+  #- name: Vikunja ### DEPRECIATED
+  #url: $VIKUNJA_URL
+  - name: Focalboard
+    url: $FB_URL
   
   # Change this one to a port eventually, please.
   - name: VPN Outside
