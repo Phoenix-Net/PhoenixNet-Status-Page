@@ -43,5 +43,6 @@ status-website:
     - title: Website
       href: $PORTFOLIO_URL
 
-  #themeUrl: https://cdn.gsheps.com/XaMA2/keKehIVI97.css/raw.css
-  theme: night
+  links:
+    - rel: stylesheet
+      href: https://phoenixsheppy.github.io/css/upptime/DarkBlue.css
