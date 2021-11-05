@@ -32,7 +32,7 @@ sites:
     url: $OUTSIDEVPN_URL
 
 status-website:
-  baseUrl: /PhoenixNet-Status-Page
+  cname: status.phoenixnet.tech
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: PhoenixNet Status
   introTitle: "PhoenixNet Service Status Page"
