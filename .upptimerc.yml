@@ -42,7 +42,7 @@ status-website:
     - title: Status
       href: /
     - title: Website
-      href: $PORTFOLIO_URL
+      href: https://phoenixnet.tech
   links:
     - rel: stylesheet
       href: https://phoenixsheppy.github.io/css/upptime/DarkBlue.css
