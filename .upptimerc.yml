@@ -43,4 +43,4 @@ status-website:
     - title: Website
       href: https://phoenixnet.tech
 
-  themeUrl: https://raw.githubusercontent.com/Phoenix-Net/PhoenixNet-Status-Page/master/assets/themes/DarkBlue.css
+  themeUrl: https://phoenix-net.github.io/PhoenixNet-Status-Page/DarkBlue.css
