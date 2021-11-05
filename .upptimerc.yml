@@ -33,6 +33,7 @@ sites:
 
 status-website:
   cname: status.phoenixnet.tech
+  themeUrl: https://cdn.gsheps.com/XaMA2/keKehIVI97.css/raw
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: PhoenixNet Status
   introTitle: "PhoenixNet Service Status Page"
@@ -42,5 +43,3 @@ status-website:
       href: /
     - title: Website
       href: $PORTFOLIO_URL
-
-  themeUrl: https://cdn.gsheps.com/XaMA2/keKehIVI97.css/raw
