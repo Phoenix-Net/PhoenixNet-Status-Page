@@ -1,21 +1,37 @@
-# Change these first
-owner: phoenix-net # Your GitHub organization or username, where this repository lives
-repo: PhoenixNet-Status-Page # The name of this repository
+owner: phoenix-net
+repo: PhoenixNet-Status-Page
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Synology NAS
+    url: $NAS_URL
+  - name: Paperless-NG
+    url: $PAPERLESS_URL
+  - name: CDN
+    url: $CDN_URL
+  - name: Plex
+    check: "tcp-ping"
+    url: $PLEX_URL
+    port: 32400
+  - name: DogCraft (Minecraft Server)
+    check: "tcp-ping"
+    url: $MC_URL
+    port: 25565
+  - name: Portfolio (PhoenixNet)
+    url: $PORTFOLIO_URL
+  - name: Contact Page
+    url: $CONTACT_URL
+  - name: OnlySheps
+    url: $GAG_URL
+  - name: Vaultwarden (Bitwarden)
+    url: $VW_URL
+  - name: Vikunja
+    url: $VIKUNJA_URL
+  
+  # Change this one to a port eventually, please.
+  - name: VPN Outside
+    url: $OUTSIDEVPN_URL
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
   baseUrl: /PhoenixNet-Status-Page
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: PhoenixNet Status
@@ -26,6 +42,5 @@ status-website:
       href: /
     - title: Website
       href: https://phoenixnet.tech
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  
+  theme: ocean
