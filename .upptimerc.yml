@@ -46,7 +46,7 @@ status-website:
   links:
     - rel: stylesheet
       href: https://phoenixsheppy.github.io/css/upptime/DarkBlue.css
-  i18n:
-    footer: ©️PhoenixNet 2021, Powered by [Upptime](https://upptime.js.org/).
-    liveStatus: Service Status
-    allSystemsOperational: All services are operational! 
+i18n:
+  footer: ©️PhoenixNet 2021, Powered by [Upptime](https://upptime.js.org/).
+  liveStatus: Service Status
+  allSystemsOperational: All services are operational! 
