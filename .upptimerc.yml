@@ -41,7 +41,6 @@ status-website:
     - title: Status
       href: /
     - title: Website
-      href: https://phoenixnet.tech
+      href: $PORTFOLIO_URL
 
-  theme: night
-  themeUrl: https://status.phoenixnet.tech/DarkBlue.css
+  themeUrl: https://cdn.gsheps.com/XaMA2/keKehIVI97.css/raw
