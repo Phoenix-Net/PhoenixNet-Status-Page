@@ -33,7 +33,8 @@ sites:
 
 status-website:
   cname: status.phoenixnet.tech
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://phoenixsheppy.github.io/css/upptime/assets/pn-logo-sqr.png
+  favicon: https://phoenixsheppy.github.io/css/upptime/assets/phoenixnet.ico
   name: PhoenixNet Status
   introTitle: "PhoenixNet Service Status Page"
   introMessage: Below is a list of services operated and maintained by PhoenixNet, along with their current status(es).
