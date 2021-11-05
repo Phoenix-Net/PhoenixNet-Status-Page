@@ -43,4 +43,4 @@ status-website:
     - title: Website
       href: https://phoenixnet.tech
   
-  theme: https://phoenix-net.github.io/PhoenixNet-Status-Page/my-custom-theme.css
+  theme: my-custom-theme
