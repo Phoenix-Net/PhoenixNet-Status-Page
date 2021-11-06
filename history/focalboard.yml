@@ -1,7 +1,7 @@
 url: $FB_URL
-status: up
-code: 200
-responseTime: 155
-lastUpdated: 2021-11-06T00:57:43.856Z
+status: down
+code: 502
+responseTime: 369
+lastUpdated: 2021-11-06T02:41:53.087Z
 startTime: Fri Nov 05 2021 19:38:57 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
