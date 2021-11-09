@@ -4,34 +4,56 @@ repo: PhoenixNet-Status-Page
 sites:
   - name: Synology NAS
     url: $NAS_URL
+    icon: https://www.synology.com/img/icon/favicon.png
+    
   - name: Paperless-NG
     url: $PAPERLESS_URL
+    icon: https://receipts.gsheps.com/favicon.ico
+
   - name: CDN
     url: $CDN_URL
+    icon: https://cdn.gsheps.com/static/images/favicon-16x16.png
+
   - name: Plex
     check: "tcp-ping"
     url: $PLEX_URL
     port: 32400
+    icon: https://www.plex.tv/wp-content/themes/plex/assets/img/favicons/favicon-16x16.png
+
   - name: DogCraft (Minecraft Server)
     check: "tcp-ping"
     url: $MC_URL
     port: 25565
+    icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon-16x16.png
+
   - name: Portfolio (PhoenixNet)
     url: $PORTFOLIO_URL
+    icon: https://phoenixnet.tech/assets/img/phoenixnet.ico
+
   - name: Contact Page
     url: $CONTACT_URL
+    icon: https://gsheps.net/assets/favicon.ico
+
   - name: OnlySheps
     url: $GAG_URL
+    icon: https://onlysheps.com/img/favicon.ico
+
   - name: Vaultwarden (Bitwarden)
     url: $VW_URL
-  #- name: Vikunja ### DEPRECIATED
-  #url: $VIKUNJA_URL
+    icon: https://vault.bitwarden.com/images/icons/favicon-16x16.png
+
+    #- name: Vikunja ### DEPRECIATED
+    #url: $VIKUNJA_URL
+
   - name: Focalboard
     url: $FB_URL
+    icon: https://www.focalboard.com/img/favicon-32x32.png
   
+
   # Change this one to a port eventually, please.
   - name: VPN Outside
     url: $OUTSIDEVPN_URL
+    icon: https://pritunl.com/favicon.ico
 
 status-website:
   cname: status.phoenixnet.tech
