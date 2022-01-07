@@ -26,8 +26,12 @@ sites:
     port: 25565
     icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon-16x16.png
 
-  - name: Portfolio (PhoenixNet)
+  - name: Portfolio (PhoenixNet-Labs)
     url: $PORTFOLIO_URL
+    icon: https://phoenixnet.tech/assets/img/phoenixnet.ico
+
+  - name: Blog (PhoenixNet-Labs)
+    url: $BLOG_URL
     icon: https://phoenixnet.tech/assets/img/phoenixnet.ico
 
   - name: Contact Page
@@ -44,6 +48,14 @@ sites:
 
     #- name: Vikunja ### DEPRECIATED
     #url: $VIKUNJA_URL
+    
+  - name: Plausible Analytics Server
+    url: $ANALYTICS_URL
+    icon: https://plausible.io/assets/images/icon/favicon.png
+
+  - name: Apache Guacamole Server
+    url: $GUAC_URL
+    icon: https://guacamole.apache.org/images/guacamole-logo-64.png
 
   - name: Focalboard
     url: $FB_URL
