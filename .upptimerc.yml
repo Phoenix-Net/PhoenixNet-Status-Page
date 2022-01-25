@@ -57,11 +57,14 @@ sites:
     url: $GUAC_URL
     icon: https://guacamole.apache.org/images/guacamole-logo-64.png
 
-  - name: Focalboard
-    url: $FB_URL
-    icon: https://www.focalboard.com/img/favicon-32x32.png
-  
+  #- name: Focalboard ### DEPRECIATED
+  #  url: $FB_URL
+  #  icon: https://www.focalboard.com/img/favicon-32x32.png
 
+  - name: Joplin Server
+    url: $JOPLIN_URL
+    icon: https://joplinapp.org/favicon.ico 
+  
   # Change this one to a port eventually, please.
   - name: VPN Outside
     url: $OUTSIDEVPN_URL
@@ -83,6 +86,6 @@ status-website:
     - rel: stylesheet
       href: https://phoenixsheppy.github.io/css/upptime/DarkBlue.css
 i18n:
-  footer: ©️PhoenixNet 2021, Powered by [Upptime](https://upptime.js.org/).
+  footer: ©️PhoenixNet 2022, Powered by [Upptime](https://upptime.js.org/).
   liveStatus: Service Status
   allSystemsOperational: All services are operational! 
