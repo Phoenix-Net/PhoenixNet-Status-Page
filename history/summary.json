@@ -198,11 +198,11 @@
     "icon": "https://vault.bitwarden.com/images/icons/favicon-16x16.png",
     "slug": "vaultwarden-bitwarden",
     "status": "up",
-    "uptime": "99.64%",
+    "uptime": "99.65%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.64%",
+    "uptimeYear": "99.65%",
     "time": 235,
     "timeDay": 138,
     "timeWeek": 223,
@@ -277,9 +277,9 @@
     "url": "$OUTSIDEVPN_URL",
     "icon": "https://pritunl.com/favicon.ico",
     "slug": "vpn-outside",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -289,6 +289,7 @@
     "timeMonth": 306,
     "timeYear": 290,
     "dailyMinutesDown": {
+      "2022-01-29": 0,
       "2021-11-05": 3
     }
   }
