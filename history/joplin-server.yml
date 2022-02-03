@@ -1,7 +1,7 @@
 url: $JOPLIN_URL
-status: down
-code: 502
-responseTime: 593
-lastUpdated: 2022-02-03T04:40:32.652Z
+status: up
+code: 200
+responseTime: 684
+lastUpdated: 2022-02-03T04:53:07.433Z
 startTime: Tue Jan 25 2022 23:55:21 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
