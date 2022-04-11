@@ -131,10 +131,10 @@
     "url": "$PORTFOLIO_URL",
     "icon": "https://phoenixnet.tech/assets/img/phoenixnet.ico",
     "slug": "portfolio-phoenix-net-labs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 120,
@@ -142,7 +142,9 @@
     "timeWeek": 111,
     "timeMonth": 124,
     "timeYear": 120,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-04-11": 1
+    }
   },
   {
     "name": "Blog (PhoenixNet-Labs)",
@@ -277,11 +279,11 @@
     "icon": "https://gitea.io/images/favicon.png",
     "slug": "gitea-server",
     "status": "up",
-    "uptime": "95.19%",
+    "uptime": "95.21%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.64%",
     "uptimeMonth": "99.92%",
-    "uptimeYear": "95.19%",
+    "uptimeYear": "95.21%",
     "time": 270,
     "timeDay": 195,
     "timeWeek": 256,
