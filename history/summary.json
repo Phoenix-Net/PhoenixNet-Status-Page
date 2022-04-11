@@ -131,19 +131,19 @@
     "url": "$PORTFOLIO_URL",
     "icon": "https://phoenixnet.tech/assets/img/phoenixnet.ico",
     "slug": "portfolio-phoenix-net-labs",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.18%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
     "time": 120,
-    "timeDay": 73,
-    "timeWeek": 111,
-    "timeMonth": 124,
+    "timeDay": 115,
+    "timeWeek": 116,
+    "timeMonth": 125,
     "timeYear": 120,
     "dailyMinutesDown": {
-      "2022-04-11": 1
+      "2022-04-11": 12
     }
   },
   {
