@@ -1,7 +1,7 @@
 url: $GAG_URL
-status: down
-code: 403
-responseTime: 121
-lastUpdated: 2022-06-16T10:37:21.215Z
+status: up
+code: 200
+responseTime: 229
+lastUpdated: 2022-06-16T10:47:56.690Z
 startTime: Fri Nov 05 2021 13:53:10 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
